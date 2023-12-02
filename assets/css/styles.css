@@ -1,0 +1,66 @@
+header {
+  background-image: url(../Imagenes/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+}
+body {
+  background-color: #fffbef;
+}
+div.products {
+  display: flex;
+  justify-content: center;
+}
+
+.brand_name {
+  -webkit-text-stroke: 1px #ccb77c;
+  padding: 30px 30px;
+}
+.products {
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 0px;
+  padding-left: 350px;
+}
+.products td {
+  width: 50%;
+  padding: 2em;
+}
+.products img {
+  width: 500px;
+  padding-top: 100px;
+}
+* {
+  margin: 0px;
+}
+p.itemName {
+  font-family: "Oswald", sans-serif;
+  font-size: x-large;
+  text-align: right;
+}
+
+p.itemPrice {
+  font-family: "Oswald", sans-serif;
+  font-size: xx-large;
+  text-align: right;
+}
+.footEnd {
+  height: 3rem;
+  padding-top: 1rem;
+  font-family: "Oswald", sans-serif;
+  background-color: antiquewhite;
+}
+.contentEnd {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  color: black;
+  -webkit-text-stroke: 1px #ccb77c;
+}
